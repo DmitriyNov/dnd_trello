@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ahj-dnd_trello</title>
+  </head>
+  <body>
+    <div class="widget-container">
+      <div class="column column-todo">
+        <div class="column-header">
+          <h3>TODO</h3>
+          <div class="column_menu">⋯</div>
+        </div>
+        <div class="cards-container">
+          <div class="card">
+            <p class="card-text">This is the third time you have postponed your training, is it really so difficult to continue?</p> <!--да, очень сложно, я ничего не помню-->
+            <button class="card-close hide">╳</button>
+          </div>
+        </div>
+        <div class="column-footer">
+          <form action="" class="column-form hide">
+            <textarea name="text" type="text" placeholder="Enter a title for this card..." class="card-input"></textarea>
+            <div class="buttons-wrapper">
+              <input type="reset" value="Add Card" class="add-card-button">
+              <input type="reset" value ="╳" class="remove-card-button">
+            </div>
+          </form>
+          <button class="add-button">╉</button>
+          <p class="footer-text">Add another card</p>
+        </div>
+      </div>
+      <div class="column column-in_progress">
+        <div class="column-header">
+          <h3>IN PROGRESS</h3>
+          <div class="column_menu">⋯</div>
+        </div>
+        <div class="cards-container">
+        </div>
+        <div class="column-footer">
+          <form action="" class="column-form hide">
+            <input name="text" type="text" placeholder="Enter a title for this card..." class="card-input">
+            <div class="buttons-wrapper">
+              <input type="reset" value="Add Card" class="add-card-button">
+              <input type="reset" value ="╳" class="remove-card-button">
+            </div>
+          </form>
+          <button class="add-button">╉</button>
+          <p class="footer-text">Add another card</p>
+        </div>
+      </div>
+      <div class="column column-done">
+        <div class="column-header">
+          <h3>DONE</h3>
+          <div class="column_menu">⋯</div>
+        </div>
+        <div class="cards-container">
+        </div>
+        <div class="column-footer">
+          <form action="" class="column-form hide">
+            <input name="text" type="text" placeholder="Enter a title for this card..." class="card-input">
+            <div class="buttons-wrapper">
+              <input type="reset" value="Add Card" class="add-card-button">
+              <input type="reset" value ="╳" class="remove-card-button">
+            </div>
+          </form>
+          <button class="add-button">╉</button>
+          <p class="footer-text">Add another card</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
